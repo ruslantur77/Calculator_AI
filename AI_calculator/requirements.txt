@@ -1,0 +1,8 @@
+#Библиотеки для правильной работы веб-приложения / Packages for proper working of web app
+matplotlib
+pandas
+numpy
+scikit-learn
+sanic
+Sanic-Cors
+tensorflow

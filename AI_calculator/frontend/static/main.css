@@ -1,0 +1,94 @@
+h1{
+  font-family: "Liter", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 3em;
+  }
+
+body{
+    background-color: cadetblue;
+    
+      zoom: 125%; 
+      transform-origin: 0 0;
+      overflow: hidden; 
+  
+}
+.font1{
+  font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+.text-container {
+margin: auto;
+  width: 300px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #2ecc71;
+  box-shadow: 0 0 5px #2ecc71;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px; /* Увеличим расстояние между кнопками */
+  padding: 15px;
+}
+
+.buttons button {
+  /* Цвета и фон */
+  background-color: #1a237e; /* Темно-синий цвет */
+  color: white; /* Белый текст */
+  
+  /* Форма */
+  border-radius: 3px; /* Убираем скругление углов */
+  border: none; /* Убираем стандартную рамку */
+  
+  /* Размеры */
+  padding: 12px 24px; /* Вертикальные и горизонтальные отступы */
+  min-width: 60px; /* Минимальная ширина кнопок */
+  
+  /* Текст */
+  font-size: 18px;
+  font-weight: bold;
+  
+  /* Эффекты */
+  /* cursor: pointer;
+  transition: all 0.3s ease; Плавные анимации */
+}
+
+/* Эффект при наведении */
+.buttons button:hover {
+  background-color: #0d47a1; /* Немного светлее синий */
+}
+
+/* Эффект при нажатии */
+.buttons button:active {
+  background-color: #002171; /* Еще темнее */
+  transform: translateY(1px); 
+}
+
+.result-container{
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+}
