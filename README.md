@@ -4,6 +4,9 @@ To get started, you need to:
 
 Install packages from requirements.txt:
 ```
-pip install -r /requirements.txt
+pip install -r AI_calculator/requirements.txt
 ```
-
+Then launch app.py and open in browser:
+```
+http://localhost:9001/
+```
