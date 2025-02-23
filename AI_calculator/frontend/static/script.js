@@ -21,8 +21,9 @@ document.querySelectorAll('button').forEach(button => {
             if(data.error) throw new Error(data.error);
             
             document.getElementById('result').innerHTML = `
-                Результат: ${data.predicted}<br>
-                Реальное значение: ${data.real}
+                Предсказанный результат: ${data.predicted.toFixed(3)}<br>
+                Реальное значение: ${data.real}<br>
+                Предсказанный отличается от реального на:  ${(Math.abs((data.real - data.predicted)/data.predicted * 100)).toFixed(3)} %
             `;
         } catch (error) {
             document.getElementById('result').innerHTML = 
